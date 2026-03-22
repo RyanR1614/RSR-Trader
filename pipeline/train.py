@@ -73,7 +73,7 @@ def train_ticker(ticker: str) -> RSRPredictor:
     optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-4)
     criterion = nn.BCELoss()
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, mode="min", patience=7, factor=0.5, verbose=False
+        optimizer, mode="min", patience=7, factor=0.5
     )
 
     best_val_loss  = float("inf")
