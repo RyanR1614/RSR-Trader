@@ -1,20 +1,27 @@
-name: RSR Daily Trading Run
+name: RSR Trading Run
 
 on:
   schedule:
-    # 2:35 PM UTC = 9:35 AM ET — runs Monday through Friday
-    - cron: "35 14 * * 1-5"
+    # Every hour during market hours: 9 AM - 5 PM ET (14:00-22:00 UTC), Mon-Fri
+    - cron: "0 14-22 * * 1-5"
   workflow_dispatch:
-    # Allows manual trigger from GitHub Actions tab
+
+# Required for GitHub Pages deployment
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   run-rsr:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -44,7 +51,7 @@ jobs:
           restore-keys: |
             rsr-state-${{ runner.os }}-
 
-      - name: Run RSR daily pipeline
+      - name: Run RSR pipeline
         env:
           NEWSAPI_KEY:       ${{ secrets.NEWSAPI_KEY }}
           REDDIT_CLIENT_ID:  ${{ secrets.REDDIT_CLIENT_ID }}
@@ -62,12 +69,14 @@ jobs:
             models/saved/
           key: rsr-state-${{ runner.os }}-${{ github.run_id }}
 
-      - name: Upload logs and charts as artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
+      - name: Generate live dashboard
+        run: python pipeline/build_dashboard.py
+
+      - name: Deploy dashboard to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: rsr-results-${{ github.run_id }}
-          path: |
-            logs/rsr.log
-            plots/
-          retention-days: 30
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dashboard
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "RSR dashboard update — ${{ github.run_id }}"
