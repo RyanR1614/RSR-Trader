@@ -1,0 +1,73 @@
+name: RSR Daily Trading Run
+
+on:
+  schedule:
+    # 2:35 PM UTC = 9:35 AM ET — runs Monday through Friday
+    - cron: "35 14 * * 1-5"
+  workflow_dispatch:
+    # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  run-rsr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download NLP models
+        run: |
+          python -m nltk.downloader stopwords wordnet omw-1.4 vader_lexicon -q
+          python -m spacy download en_core_web_sm -q
+
+      - name: Restore portfolio & model state
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/portfolio.json
+            data/raw/
+            data/sentiment/
+            models/saved/
+          key: rsr-state-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            rsr-state-${{ runner.os }}-
+
+      - name: Run RSR daily pipeline
+        env:
+          NEWSAPI_KEY:       ${{ secrets.NEWSAPI_KEY }}
+          REDDIT_CLIENT_ID:  ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_SECRET:     ${{ secrets.REDDIT_SECRET }}
+          AV_KEY:            ${{ secrets.AV_KEY }}
+        run: python pipeline/daily_run.py
+
+      - name: Save updated state
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/portfolio.json
+            data/raw/
+            data/sentiment/
+            models/saved/
+          key: rsr-state-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Upload logs and charts as artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rsr-results-${{ github.run_id }}
+          path: |
+            logs/rsr.log
+            plots/
+          retention-days: 30
