@@ -1,7 +1,11 @@
 {
-  "cash": 95071.1201171875,
+  "cash": 71509.78004455566,
   "holdings": {
-    "AMZN": 24
+    "AMZN": 47,
+    "AAPL": 18,
+    "MSFT": 12,
+    "GOOGL": 15,
+    "NVDA": 28
   },
   "history": [
     {
@@ -31,6 +35,13 @@
       "holdings_value": 4928.88,
       "total": 100000.0,
       "return_pct": 0.0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 71509.78,
+      "holdings_value": 28644.54,
+      "total": 100154.32,
+      "return_pct": 0.1543
     }
   ],
   "trades": [
@@ -41,6 +52,46 @@
       "shares": 24,
       "price": 205.37,
       "value": 4928.88
+    },
+    {
+      "date": "2026-03-23",
+      "ticker": "AAPL",
+      "action": "BUY",
+      "shares": 18,
+      "price": 252.275,
+      "value": 4540.95
+    },
+    {
+      "date": "2026-03-23",
+      "ticker": "MSFT",
+      "action": "BUY",
+      "shares": 12,
+      "price": 385.39,
+      "value": 4624.68
+    },
+    {
+      "date": "2026-03-23",
+      "ticker": "GOOGL",
+      "action": "BUY",
+      "shares": 15,
+      "price": 303.63,
+      "value": 4554.45
+    },
+    {
+      "date": "2026-03-23",
+      "ticker": "AMZN",
+      "action": "BUY",
+      "shares": 23,
+      "price": 211.8,
+      "value": 4871.4
+    },
+    {
+      "date": "2026-03-23",
+      "ticker": "NVDA",
+      "action": "BUY",
+      "shares": 28,
+      "price": 177.495,
+      "value": 4969.86
     }
   ]
 }
