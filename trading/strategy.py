@@ -12,8 +12,8 @@ logger = logging.getLogger("rsr")
 MODEL_WEIGHT     = 0.70    # Weight given to model's P(up) signal
 SENTIMENT_WEIGHT = 0.30    # Weight given to sentiment score
 
-BUY_THRESHOLD    = 0.60    # composite signal must exceed this to BUY
-SELL_THRESHOLD   = 0.40    # composite signal must be below this to SELL
+BUY_THRESHOLD    = 0.52    # composite signal must exceed this to BUY
+SELL_THRESHOLD   = 0.60    # composite signal must be below this to SELL
 
 # Stop-loss: sell if position is down this % from average cost
 STOP_LOSS_PCT    = 0.08    # 8% stop-loss
