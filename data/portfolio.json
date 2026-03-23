@@ -1,6 +1,8 @@
 {
-  "cash": 100000.0,
-  "holdings": {},
+  "cash": 95071.1201171875,
+  "holdings": {
+    "AMZN": 24
+  },
   "history": [
     {
       "date": "2026-03-22",
@@ -22,7 +24,23 @@
       "holdings_value": 0,
       "total": 100000.0,
       "return_pct": 0.0
+    },
+    {
+      "date": "2026-03-23",
+      "cash": 95071.12,
+      "holdings_value": 4928.88,
+      "total": 100000.0,
+      "return_pct": 0.0
     }
   ],
-  "trades": []
+  "trades": [
+    {
+      "date": "2026-03-23",
+      "ticker": "AMZN",
+      "action": "BUY",
+      "shares": 24,
+      "price": 205.37,
+      "value": 4928.88
+    }
+  ]
 }
