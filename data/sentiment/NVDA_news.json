@@ -3112,5 +3112,11 @@
     "body": "Nvidia stock now trades at at a discount to the S&P 500 index on its forward price-to-earnings ratio.",
     "source": "yahoo_rss",
     "date": "2026-03-27"
+  },
+  {
+    "title": "Dow sheds nearly 800 points, stocks sink as volatility spikes higher",
+    "body": "US stocks (^DJI, ^IXIC, ^GSPC) are selling off in Friday's session, marking another week of losses for all three of the major indexes. The Nasdaq Composite sank by over 2.1% and dropping 3.23% over the past five days.Yahoo Finance Senior Reporter Brooke DiPalma tracks the day's losses across sectors, including spiking volatility (^VIX) and oil prices (CL=F, BZ=F) climbing above $100 per barrel yet again as the Iran war drags on.",
+    "source": "yahoo_rss",
+    "date": "2026-03-27"
   }
 ]
