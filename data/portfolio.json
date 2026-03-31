@@ -393,6 +393,13 @@
       "holdings_value": 63677.49,
       "total": 97847.67,
       "return_pct": -2.1523
+    },
+    {
+      "date": "2026-03-31",
+      "cash": 34170.19,
+      "holdings_value": 63907.6,
+      "total": 98077.78,
+      "return_pct": -1.9222
     }
   ],
   "trades": [
