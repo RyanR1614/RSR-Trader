@@ -2542,5 +2542,29 @@
     "body": "Quantum computing may be a closer threat for bitcoin than previously thought.  In a Tuesday blog, Google researchers said quantum computers may break the encryption that keeps bitcoin and other digital assets secure using fewer resources than previously estimated.  The researchers noted a 20-fold reduction in the number of quantum resources required to solve ECDLP-256, the mathematical problem that most blockchain technologies and cryptocurrencies currently rely on for critical aspects of their security.",
     "source": "yahoo_rss",
     "date": "2026-03-31"
+  },
+  {
+    "title": "Google Unveils Cheaper AI Video Model to Expand Adoption",
+    "body": "New Veo 3.1 Lite aims to lower costs and attract more developers to video AI tools",
+    "source": "yahoo_rss",
+    "date": "2026-03-31"
+  },
+  {
+    "title": "Micron Target Cut as Memory Prices Slide",
+    "body": "DRAM weakness and new AI efficiency trends weigh on near-term outlook",
+    "source": "yahoo_rss",
+    "date": "2026-03-31"
+  },
+  {
+    "title": "North Korea-linked hack hits largely invisible software that powers online services",
+    "body": "By AJ Vicens March 31 (Reuters) - Hackers linked to North Korea breached behind-the-scenes software that runs many common online functions in an effort to steal login information that could enable",
+    "source": "yahoo_rss",
+    "date": "2026-03-31"
+  },
+  {
+    "title": "Yupp shuts down after raising $33M from a16z crypto\u2019s Chris Dixon",
+    "body": "Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.",
+    "source": "yahoo_rss",
+    "date": "2026-03-31"
   }
 ]
