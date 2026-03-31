@@ -2536,5 +2536,11 @@
     "body": "Alphabet Inc. (NASDAQ:GOOGL) is one of the best stocks to invest in for good returns. On March 25, Alphabet Inc. (NASDAQ:GOOGL) released Lyria 3 Pro, a music-generation model that lets users create tracks up to 3 minutes long. The launch comes a month after the company released Lyria 3, which allowed users to release only [\u2026]",
     "source": "yahoo_rss",
     "date": "2026-03-31"
+  },
+  {
+    "title": "Google Paper Warns of Quantum Computing Risk for Bitcoin",
+    "body": "Quantum computing may be a closer threat for bitcoin than previously thought.  In a Tuesday blog, Google researchers said quantum computers may break the encryption that keeps bitcoin and other digital assets secure using fewer resources than previously estimated.  The researchers noted a 20-fold reduction in the number of quantum resources required to solve ECDLP-256, the mathematical problem that most blockchain technologies and cryptocurrencies currently rely on for critical aspects of their security.",
+    "source": "yahoo_rss",
+    "date": "2026-03-31"
   }
 ]
