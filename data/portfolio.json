@@ -1,11 +1,11 @@
 {
-  "cash": 45274.00440979004,
+  "cash": 42471.284439086914,
   "holdings": {
     "AMZN": 71,
     "MSFT": 33,
     "NVDA": 84,
     "TSLA": 33,
-    "GOOGL": 8
+    "GOOGL": 16
   },
   "history": [
     {
@@ -1435,6 +1435,13 @@
       "holdings_value": 66052.65,
       "total": 111326.65,
       "return_pct": 11.3267
+    },
+    {
+      "date": "2026-04-27",
+      "cash": 42471.28,
+      "holdings_value": 68855.37,
+      "total": 111326.65,
+      "return_pct": 11.3267
     }
   ],
   "trades": [
@@ -2165,6 +2172,14 @@
       "shares": 26,
       "price": 350.265,
       "value": 9106.89
+    },
+    {
+      "date": "2026-04-27",
+      "ticker": "GOOGL",
+      "action": "BUY",
+      "shares": 8,
+      "price": 350.34,
+      "value": 2802.72
     },
     {
       "date": "2026-04-27",
