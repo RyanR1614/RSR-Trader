@@ -1,10 +1,10 @@
 {
-  "cash": 64205.7405090332,
+  "cash": 60260.140380859375,
   "holdings": {
     "MSFT": 33,
     "TSLA": 33,
     "NVDA": 76,
-    "AMZN": 15
+    "AMZN": 30
   },
   "history": [
     {
@@ -1497,6 +1497,13 @@
       "holdings_value": 46230.68,
       "total": 110436.42,
       "return_pct": 10.4364
+    },
+    {
+      "date": "2026-04-29",
+      "cash": 60260.14,
+      "holdings_value": 50103.78,
+      "total": 110363.92,
+      "return_pct": 10.3639
     }
   ],
   "trades": [
@@ -2331,6 +2338,14 @@
       "shares": 15,
       "price": 263.33,
       "value": 3949.95
+    },
+    {
+      "date": "2026-04-29",
+      "ticker": "AMZN",
+      "action": "BUY",
+      "shares": 15,
+      "price": 263.04,
+      "value": 3945.6
     }
   ]
 }
