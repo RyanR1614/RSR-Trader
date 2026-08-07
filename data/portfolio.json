@@ -1,12 +1,12 @@
 {
-  "cash": 43684.72410583496,
+  "cash": 41499.044174194336,
   "holdings": {
     "AMZN": 45,
     "MSFT": 21,
     "GOOGL": 35,
     "TSLA": 33,
     "NVDA": 81,
-    "AAPL": 14
+    "AAPL": 21
   },
   "history": [
     {
@@ -3711,6 +3711,13 @@
       "holdings_value": 69052.67,
       "total": 112737.39,
       "return_pct": 12.7374
+    },
+    {
+      "date": "2026-08-07",
+      "cash": 41499.04,
+      "holdings_value": 70831.84,
+      "total": 112330.88,
+      "return_pct": 12.3309
     }
   ],
   "trades": [
@@ -5641,6 +5648,14 @@
       "shares": 7,
       "price": 312.0604,
       "value": 2184.42
+    },
+    {
+      "date": "2026-08-07",
+      "ticker": "AAPL",
+      "action": "BUY",
+      "shares": 7,
+      "price": 312.24,
+      "value": 2185.68
     }
   ]
 }
