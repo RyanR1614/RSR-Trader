@@ -1,11 +1,11 @@
 {
-  "cash": 61343.21026611328,
+  "cash": 55598.46043395996,
   "holdings": {
     "MSFT": 21,
     "AMZN": 48,
     "GOOGL": 30,
     "TSLA": 36,
-    "NVDA": 24
+    "NVDA": 49
   },
   "history": [
     {
@@ -5082,6 +5082,13 @@
       "holdings_value": 53416.56,
       "total": 114759.77,
       "return_pct": 14.7598
+    },
+    {
+      "date": "2026-10-09",
+      "cash": 55598.46,
+      "holdings_value": 59415.6,
+      "total": 115014.06,
+      "return_pct": 15.0141
     }
   ],
   "trades": [
@@ -7900,6 +7907,14 @@
       "shares": 24,
       "price": 237.47,
       "value": 5699.28
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "NVDA",
+      "action": "BUY",
+      "shares": 25,
+      "price": 229.79,
+      "value": 5744.75
     }
   ]
 }
