@@ -44512,5 +44512,131 @@
     "body": "First trade hit $111.50 before the pop cooled, leaving Amazon and Google holding roughly $360 billion of Anthropic at the close.",
     "source": "yahoo_rss",
     "date": "2026-11-20"
+  },
+  {
+    "title": "Stock market bloodbath sparks panic... but Wall Street gurus reveal golden 'opportunity' for investors - and the subtle signal that everyone's missed",
+    "body": "Over the last month, growing doubts about the sustainability of the tech-driven AI rally have crept in and pushed the S&P 500 back towards correction territory.",
+    "source": "Dailymail.com",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Show HN: Stock News API \u2013 free headlines with sentiment for 10k US stocks",
+    "body": "Free JSON API (beta) with the latest news headlines for about 10,000 US-listed stocks: publisher, link, image, tickers, topic tags and a sentiment score per article. No API key, CORS enabled.",
+    "source": "Quotelinks.com",
+    "date": "2026-11-22"
+  },
+  {
+    "title": "Nvidia gains nearly $1T as Trump says nobody could 'revive the stock like it's being revived'",
+    "body": "A week after the worst week any company has ever had, Nvidia is having the best day.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+    "body": "Market Hang tackles the top stories of the day. Including Nvidia's board unanimously reinstating Jensen Huang as CEO and what the White House's involvement says about accountability in corporate America, whether the government has effectively put a floor under the AI trade, and Anthropic falling as options on the stock begin trading for the first time. The panel, with Yahoo Finance's Julie Hyman, debates where everyone sits on a one-to-five bullishness scale, whether this is a stock picker's market or a CapEx bubble that precedes a secular bear, the risk of a politically driven slowdown in data center construction, and OpenAI's chief scientist calling for a speed limit on AI development, including whether an FDA-style regulator is the right model for AI.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "What Microsoft (MSFT)'s Enterprise AI Partnerships Mean For Shareholders",
+    "body": "Recent announcements from partners such as Danaher, V2X, Audi and Intel show Microsoft products like Azure, Foundry, Fabric and EMIB-based Azure hardware being embedded deeper into mission operations, scientific instruments and workplace tools. These deals point to Microsoft quietly turning AI from headline demos into long-term, embedded workloads across defense, healthcare, autos and labs, which ties AI demand directly to everyday enterprise processes rather than one-off projects. We will...",
+    "source": "yahoo_rss",
+    "date": "2026-11-24"
+  },
+  {
+    "title": "Chamath Says Microsoft \u201cClearly Is Going to Need to Have a Frontier Model.\u201d Nadella Is Betting It Won\u2019t",
+    "body": "Key TakeawaysChamath Palihapitiya says Microsoft needs a frontier model, the week Anthropic debuted at about $1. 75 trillion fully diluted.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "China Is \u201cOnly 12 Hours\u201d Behind US AI Labs. ByteDance\u2019s Reported Azure Deal Puts Microsoft in the Middle",
+    "body": "Key TakeawaysByteDance is reportedly in advanced talks to spend about $500 million more on Microsoft\u2019s Azure, mostly to use OpenAI\u2019s models. That money would be less than 0.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Leading CHROs and Business Executives to Convene at i4cp's 2027 Next Practices Now Conference",
+    "body": "Continuing the tradition of the industry's top human capital conference, some of the world's most influential companies and progressive thought leaders will gather at the 2027 i4cp Next Practices Now Conference next March 23-25, 2027 at the Fairmont Scottsdale. They will glean insights from a distinguished lineup of CHROs and senior executives from organizations including Optum, Accenture, Microsoft, Lowe's, ServiceNow, Databricks, and Levi Strauss & Co., who will share firsthand perspectives on",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Billionaire Andreas Halvorsen Exited Microsoft and Made TSMC His Top Holding at $1.8 Billion",
+    "body": "Viking Global dumped a cloud giant that is growing faster than ever and bet on the company building the chips behind it. The filing hints at a thesis, but one detail makes copying the move risky.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Building the virtual analyst that never sleeps",
+    "body": "Yujia Zhao, Co-Founder of Funda, sits down with Aoyon Ashraf at the TomorrowX Summit to explain why she left Microsoft, building Copilot and the Copilot Evaluation Platform, to reinvent equity research from the ground up. She lays out Funda\u2019s vision for a virtual analyst that collects information, updates models, verifies assumptions, and learns from every interaction, freeing human analysts to focus exclusively on the judgment calls that actually generate alpha.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "GTA VI Hype More Than Doubled Sony\u2019s US PS5 And Microsoft\u2019s Xbox Weekly Sales, Circana Says",
+    "body": "The firm said PlayStation 5 sales were more than 2.4 times higher than a year earlier during the week ended Nov. 7, while Xbox Series sales rose to 2.3 times their year-ago level.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Don't Chase After the Market's Big AI Gains",
+    "body": "Jensen Huang\u2019s shocking return to Nvidia triggered a massive stock market rally, but don\u2019t go chasing AI gains into the holiday.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join \u2018Jensen Rally\u2019",
+    "body": "Eric Bleeker, Chief Investment Officer at 24/7 Wall St., says Jensen Huang's return to NVIDIA is lifting technology stocks on Monday. The NASDAQ was up more than 7% as of 1:30 p.m. Eastern, after opening with a 3% pre-market gain following Friday's sell-off. Chip stocks as a group rose more than 13%. Software is also higher, but the gains are uneven. Microsoft (NASDAQ: MSFT) and Salesforce (NYSE: CRM) are each up about 3%, while the IGV software ETF is up 4%. The biggest winners are companies that benefit from sovereign AI and a strong open-weight ecosystem. Palantir (NASDAQ: PLTR) leads at 10%, and Palantir has been one of the loudest backers of sovereign AI. Cloudflare (NYSE: NET) is up roughly 7%, and ServiceNow (NYSE: NOW) is up 5%, helped by its control tower software that guides customers between models and agentic workloads. Anthropic is lagging, since Huang has pushed open-weight models that pressure leading labs like Anthropic and OpenAI. Bleeker's takeaway: if Huang keeps backing open weight model makers, Palantir, Cloudflare and ServiceNow, up 5% to 10%, should keep outperforming the 2% to 3% gains in the rest of software.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "GTA VI Broke Every Record in 24 Hours, So Why Did Take-Two Shareholders Sell?",
+    "body": "Rockstar posted a record-shattering launch and a near-perfect review score, yet Take-Two investors headed for the exits. The real money behind this franchise sits somewhere the day-one sales figures never touch, and it has not even launched.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Is Amazon's Profit Riskier Than It Looks?",
+    "body": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+    "source": "yahoo_rss",
+    "date": "2026-11-24"
+  },
+  {
+    "title": "Steve Eisman Says \u201cStock Picking Is Back\u201d Now That AI Is \u201cNo Longer One Trade\u201d",
+    "body": "Jensen Huang is back as NVIDIA's CEO, and the stock exploded in a single session. Yet six big AI names tell wildly different stories this year, and one famous Big Short investor says that gap should change how your retirement fund looks.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "It's not over for Jensen Huang",
+    "body": "Nvidia's board voted unanimously to bring back Jensen Huang as CEO, 11 days after he was pushed out, and the US stock market added $3 trillion within the hour. Host Ejaaz Ahamadeen breaks down what changes now, from the \"bank of Nvidia\" and chips for China to a more careful Jensen and what his return means for open-source AI.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Google Can Spend $48 Billion More On AI From Its Own Cash. Is That Enough For Nvidia?",
+    "body": "EDITOR NOTES: delete this box before publishing. Saved by the content engine (2026-11-23 18:25 ET) as a draft. Slot: Mon Nov 23, #10 of 17 (owner Nov 20: Monday, not the weekend: weekend views are lower): Google sources and uses. Publish in order; swap LIVE-URLs as each goes live. Ledger id gs1. Add a header image (Pexels, as on other articles.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Dell Wants Up to 45% More on Signed AI Deals. IREN Has a Big Problem",
+    "body": "Key TakeawaysDell, HPE, Lenovo and Supermicro are asking for up to 45% more for AI servers already under contract, the Financial Times reported. IREN agreed to buy about $5.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "What Is The Case For Waiting On Roblox Stock?",
+    "body": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "Crypto traders saw Anthropic's 34% debut pop coming",
+    "body": "Weeks before bankers priced Anthropic\u2019s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got.",
+    "source": "yahoo_rss",
+    "date": "2026-11-23"
   }
 ]
